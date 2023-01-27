@@ -1,0 +1,53 @@
+.answers-module {
+    .answr-display {
+        padding: $spacer-4;
+        color: $color-primary;
+        .col{
+            margin: $spacer-3 $spacer-0;
+        }
+        .card {
+            border-radius: 6px;
+            border: 1px solid $color-shade2;
+            background-color: $color-contrasting;
+            &:hover {
+                box-shadow: $color-shade2 0px 20px 30px -10px;
+            }
+        }
+
+        .card-title {
+            font-size: $font-xlg;
+            font-weight: 700;
+            text-align: center;
+            padding: $spacer-1;
+            border-bottom: 1px solid $color-shade2;
+        }
+
+        .card-text {
+            font-size: $font-lg;
+            text-align: center;
+        }
+
+        .card-data {
+            text-align: center;
+        }
+
+        .check-btn {
+            margin: $spacer-1;
+            padding: $spacer-md $spacer-2;
+            color: $color-contrasting;
+            background-color: $color-primary;
+        }
+
+    }
+
+}
+
+@include mobile{
+    .answers-module{
+        .answr-display{
+            .card-data{
+                flex-direction: column;
+            }
+        }
+    }
+}

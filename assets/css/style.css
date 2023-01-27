@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  font-family: 'GFS Neohellenic', sans-serif; }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+.header-module {
+  text-align: center;
+  background-color: #2A0800; }
+  .header-module .heading {
+    font-weight: 700;
+    padding: 20px;
+    color: #F4DBD8; }
+
+.pagination-module {
+  position: sticky;
+  top: 0;
+  background-color: #FFF;
+  padding: 10px 0px;
+  z-index: 10; }
+  .pagination-module .pagination {
+    justify-content: flex-end; }
+
+.answers-module .answr-display {
+  padding: 40px;
+  color: #2A0800; }
+  .answers-module .answr-display .col {
+    margin: 30px 0px; }
+  .answers-module .answr-display .card {
+    border-radius: 6px;
+    border: 1px solid #C09891;
+    background-color: #F4DBD8; }
+    .answers-module .answr-display .card:hover {
+      box-shadow: #C09891 0px 20px 30px -10px; }
+  .answers-module .answr-display .card-title {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #C09891; }
+  .answers-module .answr-display .card-text {
+    font-size: 20px;
+    text-align: center; }
+  .answers-module .answr-display .card-data {
+    text-align: center; }
+  .answers-module .answr-display .check-btn {
+    margin: 10px;
+    padding: 5px 20px;
+    color: #F4DBD8;
+    background-color: #2A0800; }
+
+@media (max-width: 767px) {
+  .answers-module .answr-display .card-data {
+    flex-direction: column; } }
+.footer-module {
+  text-align: center;
+  color: #2A0800;
+  background-color: #F4DBD8;
+  padding: 30px;
+  margin-bottom: 0px; }
+
+/*# sourceMappingURL=style.css.map */

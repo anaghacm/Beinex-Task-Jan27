@@ -1,0 +1,9 @@
+.header-module{
+    text-align: center;
+    background-color: $color-primary;
+    .heading{
+        font-weight: 700;
+        padding: $spacer-2;
+        color: $color-contrasting;
+    }
+}

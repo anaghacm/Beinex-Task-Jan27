@@ -1,0 +1,10 @@
+.pagination-module{
+    position: sticky;
+    top: 0;
+    background-color: $color-white;
+    padding: $spacer-1 $spacer-0;
+    z-index: 10;
+    .pagination{
+        justify-content: flex-end;
+    }
+}

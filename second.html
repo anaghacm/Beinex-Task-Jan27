@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Excercise</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Header starts -->
+    <header class="header-module">
+        <div class="container">
+            <h2 class="heading">JavaScript Excercise Quesions</h2>
+           
+        </div>
+    </header>
+    <!-- Header ends -->
+
+    <!-- Section starts -->
+    <section class="pagination-module">
+        <div class="container">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="./index.html" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="./index.html">1</a></li>
+                  <li class="page-item"><a class="page-link active" href="./second.html">2</a></li>
+                  <li class="page-item"><a class="page-link" href="./third.html">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="./third.html" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+    </section>
+    <section class="answers-module">
+        <div class="container answr-display">
+            <h4>Questions 13 to 24...</h4>
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Question 13</h5>
+                            <p class="card-text pt-4"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Question 14</h5>
+                            <div class="card-data my-3 d-flex align-items-center justify-content-evenly">
+                                <input type="file" id="get-file">
+                                <button class="btn check-btn" onclick="getExtension()">Check</button>
+                            </div>
+                            <p class="card-text" id="result-q14"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Question 15</h5>
+                            <div class="card-data my-3 d-flex align-items-center justify-content-evenly">
+                                <p class="card-text m-0">Number : <input type="text" id="get-numberq15"></p>
+                                <button class="btn check-btn" onclick="difference(13)">Check</button>
+                            </div>
+                            <p class="card-text" id="result-q15"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Question 16</h5>
+                            <div class="card-data my-3 d-flex align-items-center justify-content-evenly">
+                                <p class="card-text m-0">1st Number : <input class="my-2" type="text" id="suminput1">
+                                </p>
+                                <p class="card-text m-0">2nd Number : <input class="my-2" type="text" id="suminput2">
+                                </p>
+                            </div>
+                            <div class="text-center pb-3">
+                                <button class="btn check-btn" onclick="sumNumbers()">Sum</button>
+                            </div>
+                            <p class="card-text" id="result-q16"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Question 17</h5>
+                            <div class="card-data my-3 d-flex align-items-center justify-content-evenly">
+                                <p class="card-text m-0">Number : <input type="text" id="get-numberq17"></p>
+                                <button class="btn check-btn" onclick="difference(19)">Check</button>
+                            </div>
+                            <p class="card-text" id="result-q17"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Question 18</h5>
+                            <div class="card-data my-3 d-flex align-items-center justify-content-evenly">
+                                <p class="card-text m-0">1st Number : <input class="my-2" type="text" id="firstnum-q18">
+                                </p>
+                                <p class="card-text m-0">2nd Number : <input class="my-2" type="text"
+                                        id="secondnum-q18"></p>
+                            </div>
+                            <div class="text-center pb-3">
+                                <button class="btn check-btn" onclick="checkFifty()">Check</button>
+                            </div>
+                            <p class="card-text" id="result-q18"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Question 19</h5>
+                            <div class="card-data my-3 d-flex align-items-center justify-content-evenly">
+                                <p class="card-text m-0">Number : <input type="text" id="get-numberq19"></p>
+                                <button class="btn check-btn" onclick="withinTwenty()">Check</button>
+                            </div>
+                            <p class="card-text" id="result-q19"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Question 20</h5>
+                            <div class="card-data my-3 d-flex align-items-center justify-content-evenly">
+                                <p class="card-text m-0">1st Number : <input class="my-2" type="text" id="firstnum-q20">
+                                </p>
+                                <p class="card-text m-0">2nd Number : <input class="my-2" type="text"
+                                        id="secondnum-q20"></p>
+                            </div>
+                            <div class="text-center pb-3">
+                                <button class="btn check-btn" onclick="checkPositive()">Check</button>
+                            </div>
+                            <p class="card-text" id="result-q20"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Question 21</h5>
+                            <div class="card-data my-3 d-flex align-items-center justify-content-evenly">
+                                <p class="card-text m-0">String : <input type="text" id="get-string"></p>
+                                <button class="btn check-btn" onclick="modifyString()">Modify</button>
+                            </div>
+                            <p class="card-text" id="result-q21"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Question 22</h5>
+                            <p class="card-text mx-0 my-2">String : <input type="text" id="get-inputstr"></p>
+                            <p class="card-text mx-0 my-2">Remove from index : <input type="text" id="get-index"></p>
+                            <button class="btn check-btn" onclick="removeChar()">Modify</button>
+                            <p class="card-text" id="result-q22"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Question 23</h5>
+                            <div class="card-data my-3 d-flex align-items-center justify-content-evenly">
+                                <p class="card-text m-0">String : <input type="text" id="get-string23"></p>
+                                <button class="btn check-btn" onclick="interChange()">Modify</button>
+                            </div>
+                            <p class="card-text" id="result-q23"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Question 24</h5>
+                            <div class="card-data my-3 d-flex align-items-center justify-content-evenly">
+                                <p class="card-text m-0">String : <input type="text" id="get-string24"></p>
+                                <button class="btn check-btn" onclick="modifybyFirst()">Modify</button>
+                            </div>
+                            <p class="card-text" id="result-q24"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Question 25</h5>
+                            <div class="card-data my-3 d-flex align-items-center justify-content-evenly">
+                                <p class="card-text m-0">Number : <input type="text" id="get-num25"></p>
+                                <button class="btn check-btn" onclick="multipleCheck()">Check</button>
+                            </div>
+                            <p class="card-text" id="result-q25"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section ends -->
+
+    <!-- Footer starts -->
+    <footer class="footer-module">
+        <div class="container">
+            <p>anaghaprajeesh2011@gmail.com</p>
+        </div>
+    </footer>
+    <!-- Footer ends -->
+</body>
+<script src="./assets/js/practice.js"></script>
+
+</html>
