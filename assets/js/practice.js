@@ -9,13 +9,13 @@ document.addEventListener('DOMContentLoaded', function () {
     displayDay.innerText = 'Today is : ' + weekdays[date.getDay()];
 
     let displayTime = document.getElementById('display-time');
-    let timezone = 'AM';
+    let timezone = ' AM';
     let hours = date.getHours();
     let min = date.getMinutes();
     let sec = date.getSeconds();
     if (hours > 12) {
         hours -= 12;
-        timezone = 'PM';
+        timezone = ' PM';
     }
     displayTime.innerText = "Current Time is : " + hours + timezone + ' : ' + min + ' : ' + sec;
 
